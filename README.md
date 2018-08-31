@@ -61,7 +61,7 @@ You have the following HTML page:
 
 * What will be displayed in the console when you preview the page?
 
-Option 1:
+Option 1: xxxxxxxxxxxxxxxxxx
 
 Here is the info:
 
@@ -135,7 +135,7 @@ function doAction(data, size) {
 
 2) This|is|a|test#that#illustrates#some#key#points#about#scripts
 
-3) Nothing will be displayed on the screen and an error will display in the console
+3) Nothing will be displayed on the screen and an error will display in the console xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 4) This#is#a#test that illustrates
 
@@ -172,7 +172,7 @@ The body of the HTML page contains the following script:
 Could not call the function to log the info!
 Executed the finally block
 
-2) Could not call the function to log the info!
+2) Could not call the function to log the info! xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Executed the finally block
 
 3) INFO: Could not process the file; LOGGED ON Fri Nov 03 2018 20:19:53 GMT-0400 (Eastern Standard Time)
@@ -218,11 +218,11 @@ The script in the following HTML page prompts the user for values and shows the 
 * What will be the alert if the user enters the value 8?
 
 
-1) The "result" is: 39
+1) The "result" is: 39 
 
 2) The "result" is: 10
 
-3) The "result" is: 31
+3) The "result" is: 31xxxxxxxxxxxxx
 
 4) The "result" is: 20
 
@@ -263,8 +263,8 @@ The following code snippet declares some variables and calls a function to print
 
 Option 1:
 ```
-type of x: undefined
-type of y: boolean
+type of x: undefined 
+type of y: boolean 
 type of z: number
 type of t: number
 type of u: string
@@ -299,7 +299,7 @@ type of n: undefined
 ```
 Option 4:
 ```
-type of x: null
+type of x: null xxxxxxxxxxxxxxxxxxxxxx
 type of y: boolean
 type of z: number
 type of t: float
@@ -403,11 +403,11 @@ You have the following HTML page:
 ```
 * What shows in the console when the page is loaded in the browser?
 
-Option 1:
+Option 1:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 Name: Bryan, Salary: 7000.00
 Name: tom, Salary: 8000.00  
-Name: James, Salary: 10000.00  
+Name: James, Salary: 10000.00 
 Name: Tim, Salary: 14000.00
 Name: Jessica, Salary: 21000.00  
 Name: Lisa, Salary: 33000.00
@@ -462,13 +462,13 @@ The following script displays information about the screen:
 
 * For each of the following statements about these properties, answer True or False for the following questions:
 
-1) screen.availHeight > screen.height
+1) screen.availHeight > screen.height F
 
-2) screen.colorDepth > screen.pixelDepth
+2) screen.colorDepth > screen.pixelDepth T
 
-3) screen.availHeight < screen.height
+3) screen.availHeight < screen.height F
 
-4) screen.colorDepth < screen.pixelDepth
+4) screen.colorDepth < screen.pixelDepth T
 
 
 <hr/>
@@ -551,7 +551,7 @@ You preview the following page in the browser:
 
 2) Green
 
-3) Banana
+3) Banana XXXXXXXXXXXXXXXXXXXXXXX
 
 4) Kiwi
 
