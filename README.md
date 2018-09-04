@@ -1,6 +1,9 @@
 # JavaScript_Review_10_Questions_Participation
 10 JavaScript Questions to cover with the class
 
+KEY: You correctly answered 2 out of 9
+4 correct needed for points
+
 <hr/>
 
 ### JavaScript Template Literals
@@ -60,6 +63,8 @@ You have the following HTML page:
 ```
 
 * What will be displayed in the console when you preview the page?
+
+KEY: Incorrect (Correct answer was 3)
 
 Option 1: xxxxxxxxxxxxxxxxxx
 
@@ -125,11 +130,12 @@ function doAction(data, size) {
          var newData = data.substring(0, size);
          var result = newData.split(' ');
          return result;
-} 
+}
 ```
 
 * What will be displayed when you preview this page in the browser?
 
+KEY: Incorrect (Correct answer was 4 )
 
 1) This|is|a|test#that#illustrates
 
@@ -144,7 +150,7 @@ function doAction(data, size) {
 ### Try/Catch/Throw
 MSJS practice question 19
 
-The body of the HTML page contains the following script: 
+The body of the HTML page contains the following script:
 ```
     <script>
              var fileInfo = 'Could not process the file';
@@ -167,6 +173,8 @@ The body of the HTML page contains the following script:
     </script>
 ```
 * What will be displayed in the console when this page is previewed in the browser?
+
+KEY: Incorrect (Correct answer was C)
 
 1) INFO: Could not process the file; LOGGED ON Fri Nov 03 2018 20:19:53 GMT-0400 (Eastern Standard Time)
 Could not call the function to log the info!
@@ -218,11 +226,11 @@ The script in the following HTML page prompts the user for values and shows the 
 * What will be the alert if the user enters the value 8?
 
 
-1) The "result" is: 39 
+1) The "result" is: 39
 
 2) The "result" is: 10
 
-3) The "result" is: 31xxxxxxxxxxxxx
+3) The "result" is: 31xxxxxxxxxxxxx KEY: CORRECT!
 
 4) The "result" is: 20
 
@@ -261,10 +269,12 @@ The following code snippet declares some variables and calls a function to print
 
 * What are the types of the variables?
 
+KEY: Incorrect (Correct answer was 3)
+
 Option 1:
 ```
-type of x: undefined 
-type of y: boolean 
+type of x: undefined
+type of y: boolean
 type of z: number
 type of t: number
 type of u: string
@@ -333,7 +343,7 @@ A form on a page contains the following markup:
          <div>
                   <label for="temp">Temp preference:</label>
                   32
-                  <input type="range" id="temp" name="tempPreference" 
+                  <input type="range" id="temp" name="tempPreference"
                        value="65" min="32" max="96" step="2">
                   96
          </div>
@@ -350,6 +360,8 @@ Phone: 555-123-4587
 Temp: 66
 
 * What will be the value of the request URL?
+
+KEY: Incorrect (Correct answer was 3)
 
 1) http://localhost:35132/Account/FormTest?name=&mail=test%40gmail.com&phone=555-123-4587&temp=66
 
@@ -395,7 +407,7 @@ You have the following HTML page:
                   employees.forEach(function (item) {
                            console.log(`Name: ${item.name}, Salary: ${item.salary.toFixed(2)}`);
                   })
-       
+
          </script>
 </body>
 </html>
@@ -403,40 +415,42 @@ You have the following HTML page:
 ```
 * What shows in the console when the page is loaded in the browser?
 
+KEY: Incorrect (Correct answer was 3)
+
 Option 1:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 Name: Bryan, Salary: 7000.00
-Name: tom, Salary: 8000.00  
-Name: James, Salary: 10000.00 
+Name: tom, Salary: 8000.00
+Name: James, Salary: 10000.00
 Name: Tim, Salary: 14000.00
-Name: Jessica, Salary: 21000.00  
+Name: Jessica, Salary: 21000.00
 Name: Lisa, Salary: 33000.00
 ```
 Option 2:
 ```
-Name: James, Salary: 7000.00  
-Name: Bryan, Salary: 10000.00  
-Name: Tim, Salary: 21000.00  
-Name: Jessica, Salary: 33000.00  
-Name: Lisa, Salary: 14000.00  
+Name: James, Salary: 7000.00
+Name: Bryan, Salary: 10000.00
+Name: Tim, Salary: 21000.00
+Name: Jessica, Salary: 33000.00
+Name: Lisa, Salary: 14000.00
 Name: tom, Salary: 8000.00
 ```
 Option 3
 ```
-Name: Bryan, Salary: 7000.00  
-Name: James, Salary: 10000.00  
-Name: Jessica, Salary: 21000.00  
-Name: Lisa, Salary: 33000.00  
-Name: Tim, Salary: 14000.00  
+Name: Bryan, Salary: 7000.00
+Name: James, Salary: 10000.00
+Name: Jessica, Salary: 21000.00
+Name: Lisa, Salary: 33000.00
+Name: Tim, Salary: 14000.00
 Name: tom, Salary: 8000.00
 ```
 Option 4:
 ```
-Name: Bryan, Salary: 7000.00  
-Name: James, Salary: 10000.00  
-Name: Jessica, Salary: 21000.00  
-Name: Lisa, Salary: 33000.00 
-Name: tom, Salary: 8000.00 
+Name: Bryan, Salary: 7000.00
+Name: James, Salary: 10000.00
+Name: Jessica, Salary: 21000.00
+Name: Lisa, Salary: 33000.00
+Name: tom, Salary: 8000.00
 Name: Tim, Salary: 14000.00
 ```
 
@@ -462,6 +476,8 @@ The following script displays information about the screen:
 
 * For each of the following statements about these properties, answer True or False for the following questions:
 
+KEY: Incorrect (Correct answer was F, F, T, T)
+
 1) screen.availHeight > screen.height F
 
 2) screen.colorDepth > screen.pixelDepth T
@@ -476,13 +492,15 @@ The following script displays information about the screen:
 ### Dates
 MSJS practice question 44
 
+KEY: N/A Question removed
+
 A date is declared as follows:
 
 ```
 var d2 = new Date('March 11, 2005 02:30:00');
 ```
 
-Answer the following questions? 
+Answer the following questions?
 
 Question 1) The getDate() function will return: ___
 
@@ -535,7 +553,7 @@ You preview the following page in the browser:
             if (i <= 0) return;
             return names[i - 1];
         }
-        
+
         names.sort();
         var index = findIndex('orange');
 
@@ -551,7 +569,7 @@ You preview the following page in the browser:
 
 2) Green
 
-3) Banana XXXXXXXXXXXXXXXXXXXXXXX
+3) Banana XXXXXXXXXXXXXXXXXXXXXXX KEY: CORRECT!
 
 4) Kiwi
 
